@@ -1,0 +1,408 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+#blue{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 0, 255);
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-top: 27px;
+    margin-left: 67px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+#videotag{
+    position: absolute;
+    top: 330px;
+    right: 200px;
+}
+#welcome{
+    position: absolute;
+    color: blue;
+    top: 200px;
+    right: 260px;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+#about{
+    color: black;
+    background-color: rgba(0, 0, 255, 0.185);
+    position: absolute;
+    top: 800px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#who{
+    font-size: 50px;
+    font-weight: bold;
+    color: orange;
+}
+#roots{
+    font-size: 35px;
+    font-weight: bold;
+    color: orange;
+}
+#para{
+    font-size: 25px;
+    color: orange;
+   
+}
+#ourfood{
+    position: absolute;
+    top: 1600px;
+}
+.bir{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    position: absolute;
+    right: 500px;
+    top: 50px; 
+}
+#btn{
+    position: absolute;
+    right: 540px; 
+    top: 400px; 
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+#btn:hover{
+    background-color: orange;
+}
+#biryani{
+    color: orange;
+    position: absolute;
+    top: 280px; 
+    font-size: 30px;
+    right: 560px;
+
+}
+#our{
+    color: white;
+    position: absolute;
+    top: -200px;
+    left: -90px;
+    width: 400px;
+    font-size: 35px;
+    font-weight: bold;
+}
+#should{
+    color: white;
+    margin-top: -50px;
+    font-size: 25px;
+    
+}
+.piz{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    right: 200px;
+    top: 50px; 
+}
+#pizza{
+    color: orange;
+    position: absolute;
+    top: 280px; 
+    font-size: 30px;
+    right: 270px;
+
+}
+#btn2{
+    position: absolute;
+    right: 235px; 
+    top: 400px; 
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+#btn2:hover{
+    background-color: orange;
+}
+.italy{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 130px;
+    top: 50px; 
+}
+#italian{
+    color: orange;
+    position: absolute;
+    top: 280px; 
+    font-size: 30px;
+    left: 185px;
+}
+
+#btn3{
+    position: absolute;
+    left: 165px; 
+    top: 400px; 
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+#btn3:hover{
+    background-color: orange;
+}
+.china{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 430px;
+    top: 50px; 
+}
+#chinese{
+    color: orange;
+    position: absolute;
+    top: 280px; 
+    font-size: 30px;
+    left: 475px;
+}
+#btn4{
+    position: absolute;
+    left: 465px; 
+    top: 400px; 
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+#btn4:hover{
+    background-color: orange;
+}
+#slider{
+    position: absolute;
+    top: 2100px;
+    background-color: white;
+    
+}
+
+header{
+    background-image: url(/html/1.jpg);
+    background-size: 100% 130%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-image 0.5s;
+    position: relative;
+    width: 1628px;
+    height: 600px;
+
+}
+input{
+    width: 4vw;
+    margin: 3vw;
+    height: 4vw;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px black;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    transition: all 0.5s;
+}
+#right{
+    text-shadow: -2px -0px 5px black;
+    border-radius: 5px 0px 0px 5px;
+}
+
+input:hover{
+    color: black;
+    background-color: white;
+    transform: scale(1.1);   
+}
+
+
+#statuscontainer{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    bottom: 10%;
+    left: 42%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.status{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+#book{
+    position: absolute;
+    top: 2700px;
+    background-color: rgba(0, 0, 255, 0.185);
+    width: 100%;
+    height: 500px;
+}
+#table{
+    color:orange;
+    position: absolute;
+    top: 60px;
+    font-size: 50px;
+    font-weight: bold;
+}
+#reserve{
+    position: absolute;
+    color: orange;
+    top: 150px;
+    font-size: 30px;
+}
+#call{
+    position: absolute;
+    top: 230px;
+    color: orange;
+    text-decoration: underline;
+}
+#button{
+    position: absolute;
+    top: 340px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#button:hover{
+    background-color: orange;
+    scale: 1.1;
+    transition: all 0.2s;
+}
+#map{
+    position: absolute;
+    top: 3400px;
+}
+#direction{
+    color: white;
+    position: absolute;
+    top: -100px;
+}
+#tt{
+    position: absolute;
+    top: -60px;
+    right: 250px;
+    
+}
+
+#timings{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 4000px;
+    background-color: rgba(0, 0, 255, 0.185);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#open{
+color: orange;
+font-size: 45px;
+font-weight: bold;
+}
+#dine{
+color: orangered;
+font-weight: bold;
+}
+#mon{
+color: orangered;
+font-weight: bold;
+}
+#sun{
+color: orangered;
+font-weight: bold;
+}
+#icons{
+    position: absolute;
+    top: 4500px;
+    background-color: rgba(0, 0, 255, 0.185);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-brands{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 40px;
+    text-align: center;
+}
+.fa-brands:hover{
+    color: orange;
+}
+#copyrights{
+    position: absolute;
+    width: 600px;
+    top: 4800px;
+    color: orangered;
+}
+#copy{
+    position: absolute;
+    top: -10px;
+    width: 100%;
+}
+#design{
+    position: absolute;
+    top: 50px;
+    right: 130px;
+}

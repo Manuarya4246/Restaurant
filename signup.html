@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BluePlate Restaurant</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="icon" href="/assets/logos/BPL_Main_CMYK_Blue-removebg-preview.png">
+    <script src="/html/signuppage.js" defer></script>
+</head>
+<body>
+    <div id="bubblecontainer">
+        <div class="bubble" id="bubble1"></div>
+        <div class="bubble" id="bubble2"></div>
+        <div class="bubble" id="bubble3"></div>
+        <div class="bubble" id="bubble4"></div>
+        <div class="bubble" id="bubble5"></div>
+        <div class="bubble" id="bubble6"></div>
+    </div>
+    <div id="container">
+        <div id="videocontainer">
+            <video id="signupvideo" src="/html/assets/videos/pexels-rodnae-productions-6645760 (1080p) (1).mp4" autoplay muted loop></video>
+        </div>
+        <div id="infocontainer">
+            <h1>Reg. Info</h1>
+            <div id="name">
+                <input class="inputs" type="text" placeholder="First Name">
+                <input class="inputs" type="text" placeholder="Last Name">
+            </div>
+            <div id="ContactInfo">
+                <input type="email" class="inputs wideinput" placeholder="Enter the Email">
+
+                <input type="tel" class="inputs wideinput" placeholder="Enter the Phone Number" minlength="10" max="10">
+                <input type="password" placeholder="Enter password" class="inputs wideinput">
+                <textarea class="inputs wideinput" id="add" placeholder="Enter Your Address"></textarea>
+                <input type="text" class="inputs wideinput" placeholder="Enter the Nearest Landmark">
+                <input type="tel" class="inputs wideinput" placeholder="Enter the Pin" minlength="5" maxlength="5">
+                <h4>Choose the City</h4>
+                <select>
+                    <option>--City Names--</option>
+                    <option>Hyderabad</option>
+                    <option>Vijayawada</option>
+                    <option>Kurnool</option>
+                    <option>Guntur</option>
+                    <option>Chennai</option>
+                    <option>Benguluru</option>
+                    <option>Mumbai</option>
+                </select>
+            </div>
+            <div id="signUp">
+               <input id="button" type="button" value="Signup" onclick="storedata()">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

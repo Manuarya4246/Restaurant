@@ -1,0 +1,299 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+#blue{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 0, 255);
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-top: 27px;
+    margin-left: 67px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+#videotag{
+    position: absolute;
+    top: 330px;
+    right: 200px;
+}
+video{
+    width: 760px;
+    height: 380px;
+}
+#foodimages{
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 1000px;
+}
+.im{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 200px;
+    float: left;
+    padding: 150px;
+
+}
+#dish{
+    color: orange;
+    text-align: center;
+    font-size: 50px;
+}
+#we{
+    color: orange;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+.tik{
+    color: orange;
+    font-size: 30px;
+    position: absolute;
+}
+#img1{
+    top: 700px;
+    left: 200px;
+}
+#img2{
+    top: 700px;
+    left: 700px;
+}
+#img3{
+    top: 700px;
+    left: 1230px;
+}
+#img4{
+    top: 1200px;
+    left: 190px;
+}
+#img5{
+    top: 1200px;
+    left: 700px;
+}
+#img6{
+    top: 1200px;
+    left: 1230px;
+}
+#img7{
+    top: 1700px;
+    left: 200px;
+}
+#img8{
+    top: 1700px;
+    left: 700px;
+}
+#img9{
+    top: 1700px;
+    left: 1215px;
+}
+#img10{
+    top: 2200px;
+    left: 200px;
+}
+#img11{
+    top: 2200px;
+    left: 700px;
+}
+#img12{
+    top: 2200px;
+    left: 1210px;
+}
+#img13{
+    top: 2700px;
+    left: 200px;
+}
+#img14{
+    top: 2700px;
+    left: 680px;
+}
+#img15{
+    top: 2700px;
+    left: 1210px;
+}
+.p1{
+    color: white;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 800px;
+    left: 100px;
+    font-size: 20px;
+}
+.p2{
+    color: white;
+    width: 300px;
+    position: absolute;
+    top: 800px;
+    left: 600px;
+    font-size: 20px; 
+}
+.p3{
+    color: white;
+    width: 300px;
+    position: absolute;
+    top: 770px;
+    left: 1100px;
+    font-size: 20px; 
+}
+.p4{
+    color: white;
+    width: 300px;
+    position: absolute;
+    top: 1300px;
+    left: 100px;
+    font-size: 20px; 
+}
+.p5{
+    color: white;
+    width: 300px;
+    position: absolute;
+    top: 1300px;
+    left: 600px;
+    font-size: 20px; 
+}
+.p6{
+    color: white;
+    width: 300px;
+    position: absolute;
+    top: 1300px;
+    left: 1100px;
+    font-size: 20px; 
+}
+.p7{
+    color: white;
+    width: 300px;
+    position: absolute;
+    top: 1800px;
+    left: 100px;
+    font-size: 20px; 
+}
+.p8{
+    color: white;
+    width: 300px;
+    position: absolute;
+    top: 1800px;
+    left: 600px;
+    font-size: 20px; 
+}
+.p9{
+    color: white;
+    width: 300px;
+    position: absolute;
+    top: 1800px;
+    left: 1100px;
+    font-size: 20px; 
+}
+.p10{
+    color: white;
+    width: 300px;
+    position: absolute;
+    top: 2300px;
+    left: 100px;
+    font-size: 20px; 
+}
+.p11{
+    color: white;
+    width: 300px;
+    position: absolute;
+    top: 2300px;
+    left: 600px;
+    font-size: 20px; 
+}
+.p12{
+    color: white;
+    width: 300px;
+    position: absolute;
+    top: 2300px;
+    left: 1100px;
+    font-size: 20px; 
+}
+.p13{
+    color: white;
+    width: 300px;
+    position: absolute;
+    top: 2800px;
+    left: 100px;
+    font-size: 20px; 
+}
+.p14{
+    color: white;
+    width: 300px;
+    position: absolute;
+    top: 2800px;
+    left: 600px;
+    font-size: 20px; 
+}
+.p15{
+    color: white;
+    width: 300px;
+    position: absolute;
+    top: 2800px;
+    left: 1100px;
+    font-size: 20px; 
+}
+#icons{
+    position: absolute;
+    top: 4000px;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-brands{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 40px;
+    text-align: center;
+}
+.fa-brands:hover{
+    color: orange;
+}
+#copyrights{
+    position: absolute;
+    width: 600px;
+    top: 4400px;
+    color: orangered;
+}
+#copy{
+    position: absolute;
+    top: -10px;
+    width: 100%;
+}
+#design{
+    position: absolute;
+    top: 50px;
+    right: 130px;
+}

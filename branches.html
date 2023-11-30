@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branches</title>
+    <link rel="icon" href="/assets/logos/BPL_Main_CMYK_Blue-removebg-preview.png">
+    <link rel="stylesheet" href="branches.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div id="main">
+        <div id="logocontainer">
+            <img src="/html/assets/images/BPL_Main_CMYK_Blue__1_.jpg-removebg-preview.png">
+            <h2 id="blue">Blueplate Restaurant</h2>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/html/home.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/html/ourstory.html">Our Story</a></li>
+                <li><a href="http://127.0.0.1:5500/html/Food.html">Food</a></li>
+                <li><a href="http://127.0.0.1:5500/html/branches.html">Branches</a></li>
+                <li><a href="#">Awards</a></li>
+                <li><a href="http://127.0.0.1:5500/html/Gallary.html">Gallery</a></li>
+                <li><a href="https://www.zomato.com/hyderabad/blue-plates-l-b-nagar" target="_blank">Order Food</a></li>
+            </ul>
+        </div>
+        <div id="videotag">
+            <video src="/html/assets/videos/133987 (1080p).mp4" autoplay muted loop></video>
+        </div>
+        <div id="branch">
+            <h1 id="our">-Our Branches-</h1>
+        </div>
+        <div id="branch1">
+            <i class="fa-solid fa-location-dot"></i>
+            <h1 class="gachi">Gachibowli</h1>
+            <h2 class="first">Our First Branch</h2>
+           <a href="https://maps.app.goo.gl/UCqjYPVk7F7FdLvF6" target="_blank"><button id="btn">Directions</button></a>
+        </div>
+        <div id="branch2">
+            <i class="fa-solid fa-location-dot"></i>
+            <h1 class="Hitech">Hitech City</h1>
+            <h2 class="finest">luxurious dining</h2>
+            <a href="https://maps.app.goo.gl/5Cj2WWAPYUYZiFMD7" target="_blank"><button id="btn">Directions</button></a>
+        </div>
+        <div id="branch3">
+            <i class="fa-solid fa-location-dot"></i>
+            <h1 class="Banjara">Banjara Hills</h1>
+            <h2 class="dining">Finest dining</h2>
+            <a href="https://maps.app.goo.gl/k2EBUKnyMvpnYPhCA" target="_blank"><button id="btn">Directions</button></a>
+        </div>
+        <div id="branch4">
+            <i class="fa-solid fa-location-dot"></i>
+            <h1 class="dil">Dilsukhnagar</h1>
+            <h2 class="take">Takeaway Branch</h2>
+            <a href="https://maps.app.goo.gl/k2EBUKnyMvpnYPhCA" target="_blank"><button id="btn">Directions</button></a>
+        </div>
+        <div id="branch5">
+            <i class="fa-solid fa-location-dot"></i>
+            <h1 class="mad">Madhapur</h1>
+            <h2 class="takeaway">Takeaway Branch</h2>
+            <a href="https://maps.app.goo.gl/k2EBUKnyMvpnYPhCA" target="_blank"><button id="btn">Directions</button></a>
+        </div>
+        <div id="branch6">
+            <i class="fa-solid fa-location-dot"></i>
+            <h1 class="pet">Ameerpet</h1>
+            <h2 class="luxurious">luxurious dining</h2>
+            <a href="https://maps.app.goo.gl/k2EBUKnyMvpnYPhCA" target="_blank"><button id="btn">Directions</button></a>
+        </div>
+        <div>
+            <form id="input">
+            <h1 id="contact">Contact Us</h1>
+            <input type="text" placeholder=" Enter Your Full Name" required id="name">
+            <input type="text" placeholder=" Enter Your Email Id" required id="email">
+            <textarea placeholder="Message" required id="message"></textarea>
+            <button id="btn" onclick="sendemail(); reset(); return false;">Submit</button>
+            </form>
+        </div>
+        <div id="icons">
+            <a href="https://instagram.com/blueplate_multicuisine?igshid=M2RkZGJiMzhjOQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/blueplatedothan" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.youtube.com/watch?v=3jf1beYBnRI" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/blueplatecater" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div id="copyrights">
+            <h2 id="copy">Copyright © Blueplate Restaurant. All rights reserved</h2><br>
+            <h2 id="design">Designed and Developed by Manohar</h2>
+        </div>
+    </div>
+
+
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+       function sendemail(){
+            Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "manoharbadana12@gmail.com",
+            Password : "42A93369F6F3AB13C7ED3E4F17C30F5A2E3F",
+            To : 'manoharbadana12@gmail.com',
+            From : "manoharbadana12@gmail.com",
+            Subject : "From Blue Plate Restaurant",
+            Body : "Name: "+document.getElementById("name").value
+            + "<br> Email: "+document.getElementById("email").value
+            + "<br> message: "+document.getElementById("message").value
+            }).then(
+                window.alert("Message sent successfully")
+            );
+         }
+    </script>
+</body>
+</html>

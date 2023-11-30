@@ -1,0 +1,287 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+#blue{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 0, 255);
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-top: 27px;
+    margin-left: 67px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+#videotag{
+    position: absolute;
+    top: 330px;
+    right: 200px;
+}
+video{
+    width: 760px;
+    height: 380px;
+}
+#our{
+    font-size: 50px;
+    font-weight: bold;
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+}
+#branch{
+    position: absolute;
+    top: 900px;
+}
+#branch1{
+    position: absolute;
+    top: 1100px;
+    left: 200px;
+    background-color: rgba(128, 128, 128, 0.404);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.fa-solid{
+    color: white;
+    font-size: 40px;
+}
+.gachi{
+    color: aqua;
+    font-size: 30px;
+}
+.first{
+    font-size: 30px;
+    color: aqua;
+}
+#branch2{
+    position: absolute;
+    top: 1100px;
+    left: 700px;
+    background-color: rgba(128, 128, 128, 0.404);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.fa-solid{
+    color: white;
+    font-size: 40px;
+}
+.Hitech{
+    color: aqua;
+    font-size: 30px;
+}
+.finest{
+    font-size: 30px;
+    color: aqua;
+}
+#btn{
+    width: 130px;
+    height: 40px;
+    border-radius: 7px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: aqua;
+}
+
+#branch3{
+    position: absolute;
+    top: 1100px;
+    left: 1200px;
+    background-color: rgba(128, 128, 128, 0.404);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.fa-solid{
+    color: white;
+    font-size: 40px;
+}
+.Banjara{
+    color: aqua;
+    font-size: 30px;
+}
+.dining{
+    font-size: 30px;
+    color: aqua;
+}
+#branch4{
+    position: absolute;
+    top: 1500px;
+    left: 200px;
+    background-color: rgba(128, 128, 128, 0.404);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.fa-solid{
+    color: white;
+    font-size: 40px;
+}
+.dil{
+    color: aqua;
+    font-size: 30px;
+}
+.take{
+    font-size: 30px;
+    color: aqua;
+}
+#branch5{
+    position: absolute;
+    top: 1500px;
+    left: 700px;
+    background-color: rgba(128, 128, 128, 0.404);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.fa-solid{
+    color: white;
+    font-size: 40px;
+}
+.mad{
+    color: aqua;
+    font-size: 30px;
+}
+.takeaway{
+    font-size: 30px;
+    color: aqua;
+}
+#branch6{
+    position: absolute;
+    top: 1500px;
+    left: 1200px;
+    background-color: rgba(128, 128, 128, 0.404);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.fa-solid{
+    color: white;
+    font-size: 40px;
+}
+.pet{
+    color: aqua;
+    font-size: 30px;
+}
+.luxurious{
+    font-size: 30px;
+    color: aqua;
+}
+#input{
+    position: absolute;
+    top: 2000px;
+    background-color: rgba(128, 128, 128, 0.61);
+    width: 700px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    left: 500px;
+}
+input{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+#contact{
+    font-size: 45px;
+    color: orange;
+    font-weight: bold;
+}
+#icons{
+    position: absolute;
+    top: 2500px;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-brands{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 40px;
+    text-align: center;
+}
+.fa-brands:hover{
+    color: orange;
+}
+#copyrights{
+    position: absolute;
+    width: 600px;
+    top: 2900px;
+    color: orangered;
+}
+#copy{
+    position: absolute;
+    top: -10px;
+    width: 100%;
+}
+#design{
+    position: absolute;
+    top: 50px;
+    right: 130px;
+}

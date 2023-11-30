@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+#blue{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 0, 255);
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-top: 27px;
+    margin-left: 67px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+#videotag{
+    position: absolute;
+    top: 330px;
+    right: 200px;
+}
+video{
+    width: 760px;
+    height: 380px;
+}
+#container{
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    row-gap: 20px;
+    column-gap: 50px;
+    overflow: hidden;
+    position: absolute;
+    top: 1100px;
+}
+#im{
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    transition: all 0.2s;
+}
+#im:hover{
+    transform: scale(1.1) rotate(10deg);
+}
+#pageheading{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    position: absolute;
+    top: 900px;
+}
+
+#bigwindow{
+    width: 100%;
+    height: 1500px;
+    background-color: rgba(0, 0, 0, 0.507);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1100px;
+}
+#bigimage{
+    width: 50%;
+    height: 50%;
+    background-image: url(/javascript/assets/images/0.jpg);
+    background-size: 100% 100%;
+    box-shadow: 2px 5px 5px black;
+}
+#close{
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+#icons{
+    position: absolute;
+    top: 2700px;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-brands{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 40px;
+    text-align: center;
+}
+.fa-brands:hover{
+    color: orange;
+}
+#copyrights{
+    position: absolute;
+    width: 600px;
+    top: 3100px;
+    color: orangered;
+}
+#copy{
+    position: absolute;
+    top: -10px;
+    width: 100%;
+}
+#design{
+    position: absolute;
+    top: 50px;
+    right: 130px;
+}
+

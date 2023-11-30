@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+#blue{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 0, 255);
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-top: 27px;
+    margin-left: 67px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+#videotag{
+    position: absolute;
+    top: 330px;
+    right: 200px;
+}
+video{
+    width: 760px;
+    height: 380px;
+}
+.src{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 1000px;
+    left: 150px;
+}
+#img1{
+    z-index: 4;
+    left: 150px;
+    top: 1000px;
+}
+#img2{
+    z-index: 3;
+    left: 200px;
+    top: 1040px;
+}
+#img3{
+    z-index: 2;
+    left: 250px;
+    top: 1080px;
+
+}
+#img4{
+    z-index: 1;
+    left: 300px;
+    top: 1120px;
+}
+#id{
+    position: absolute;
+    top: 1050px;
+    left: 900px;
+}
+#plate{
+    font-size: 80px;
+    color: orange;
+}
+#par{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top:200px;
+}
+#button{
+    position: absolute;
+    top: 400px;
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#button:hover{
+    background-color: orange;
+}
+#ourstory{
+    position: absolute;
+    top: 1800px;
+    background-color: rgba(0, 0, 255, 0.185);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 800px;
+}
+#our{
+    position: absolute;
+    top: 70px;
+    color: orange;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#story{
+    color: rgb(255, 68, 0);
+    padding-top: 150px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#vid{
+    width: 760px;
+    height: 380px;
+    padding-top: 100px;
+}
+
+#icons{
+    position: absolute;
+    top: 2600px;
+    background-color: rgba(0, 0, 255, 0.185);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-brands{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 40px;
+    text-align: center;
+}
+.fa-brands:hover{
+    color: orange;
+}
+#copyrights{
+    position: absolute;
+    width: 600px;
+    top: 3000px;
+    color: orangered;
+}
+#copy{
+    position: absolute;
+    top: -10px;
+    width: 100%;
+}
+#design{
+    position: absolute;
+    top: 50px;
+    right: 130px;
+}
+

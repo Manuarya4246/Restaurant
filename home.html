@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="icon" href="/assets/logos/BPL_Main_CMYK_Blue-removebg-preview.png">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="/html/homepage.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div id="logocontainer">
+            <img src="/html/assets/images/BPL_Main_CMYK_Blue__1_.jpg-removebg-preview.png">
+            <h2 id="blue">Blueplate Restaurant</h2>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/html/home.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/html/ourstory.html">Our Story</a></li>
+                <li><a href="http://127.0.0.1:5500/html/Food.html">Food</a></li>
+                <li><a href="http://127.0.0.1:5500/html/branches.html">Branches</a></li>
+                <li><a href="#">Awards</a></li>
+                <li><a href="http://127.0.0.1:5500/html/Gallary.html">Gallery</a></li>
+                <li><a href="https://www.zomato.com/hyderabad/blue-plates-l-b-nagar">Order Food</a></li>
+            </ul>
+        </div>
+        <h1 id="welcome">-Exquisite cuisine in a welcoming ambiance-</h1>
+        <div id="videotag">
+            <iframe width="760" height="380" src="https://www.youtube.com/embed/kRCH8kD1GD0?si=0SGy94UmqUsfaVRI" title="Blueplate Restaurant Hyderabad | Introduction to the Experience of Blueplate Multicuisine Restaurants" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="about">
+        <h1 id="who">Who We Are..🤷‍♂️</h1>
+        <h2 id="roots">Our Roots</h2>
+          <p id="para">At Blueplate Restaurant, we're more than just a dining experience - we're a culinary journey rooted in passion and flavor. Our commitment lies in crafting memorable moments through exceptional food, warm hospitality, and a welcoming ambiance we aim to bring the essence of hindu culture to your table, infusing every dish with tradition, innovation, and a touch of our own unique flair.</p>
+        </div>
+        <div id="ourfood">
+            <h1 id="our">Our Food that Curates😋</h1>
+            <h2 id="should">Should definitely try..</h2>
+            <img src="/html/assets/images/biryani.jpg" class="bir">
+            <h2 id="biryani">Biryani</h2>
+            <a href="https://en.wikipedia.org/wiki/Biryani"><button id="btn">Know more</button></a>
+            <img src="/html/assets/images/pizza.jpg" class="piz">
+            <h2 id="pizza">Pizza</h2>
+            <a href="https://en.wikipedia.org/wiki/Pizza"><button id="btn2">Know more</button></a>
+            <img src="/html/assets/images/italian.jpg" class="italy">
+            <h2 id="italian">Italian</h2>
+            <a href="https://en.wikipedia.org/wiki/List_of_Italian_dishes"><button id="btn3">Know more</button></a>
+            <img src="/html/assets/images/chinese.jpg" class="china">
+            <h2 id="chinese">Chinese</h2>
+            <a href="https://en.wikipedia.org/wiki/List_of_Chinese_dishes"><button id="btn4">Know more</button></a>
+        </div>
+        <div id="slider">
+            <header>
+                <input type="button" value="<" id="left" onclick="left()">
+                <div id="statuscontainer">
+                    <div class="status" id="status1"></div>
+                    <div class="status" id="status2"></div>
+                    <div class="status" id="status3"></div>
+                    <div class="status" id="status4"></div>
+                    <div class="status" id="status5"></div>
+                </div>
+                <input type="button" value=">" id="right" onclick="right()">
+            </header>
+        </div>
+        <div id="book">
+            <h1 id="table">-Book a Table-</h1>
+            <h3 id="reserve">If you'd like to reserve a table or speak with a member of our team, get in touch today.</h3>
+            <a href="#"><h2 id="call">Call us-8096883534</h2></a>
+            <a href="https://www.zomato.com/hyderabad/blue-plates-l-b-nagar" target="_blank"><button id="button">Order Online</button></a>
+        </div>
+        <div id="map">
+            <h1 id="direction">-Directions to our Restaurant-</h1>
+            <br>
+            <h2 id="tt">👇👇👇</h2>
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.4004306944385!2d80.47246997425931!3d15.88807914426385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a3fc2b77de3f7%3A0x3b51e2b9eca876e9!2sBLUE%20PLATE%20MULTICUISINE!5e0!3m2!1sen!2sin!4v1701075717731!5m2!1sen!2sin" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        </div>
+        <div id="timings">
+            <h1 id="open">-Opening Hours-</h1>
+            <h2 id="dine">Dine In or Take Away</h2>
+            <h2 id="mon">Monday - Saturday: 11am - 11pm</h2>
+            <h2 id="sun">Sunday: 11am - 11pm</h2>
+        </div>
+        <div id="icons">
+            <a href="https://instagram.com/blueplate_multicuisine?igshid=M2RkZGJiMzhjOQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/blueplatedothan" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.youtube.com/watch?v=3jf1beYBnRI" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/blueplatecater" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div id="copyrights">
+            <h2 id="copy">Copyright © Blueplate Restaurant. All rights reserved</h2><br>
+            <h2 id="design">Designed and Developed by Manohar</h2>
+        </div>
+    </div>
+</body>
+</html>
